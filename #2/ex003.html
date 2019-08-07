@@ -1,0 +1,52 @@
+<!-- Exercicios da aula 06 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Friend</h1>
+    <p>Wish you were here</p>
+    <script>
+
+        //Covert String for Number
+            //String > Number
+        // You can use:
+            // Number.patseInt:: = var n1 = Number.parseInt(value)
+            // Number:: Number(value) -> Here you use for int + float:: 5 + 5.5
+
+            //Number > String
+        // You can use:
+            // String(value)
+            // value.toString()
+
+        var n1 = Number.parseInt(window.prompt('Write an number'));
+        var n2 = Number(window.prompt('Write another number'));
+    
+        var sum = n1 + n2;
+
+        window.alert(sum);
+
+        //String format for print
+            // 'I'm learning Js' // dont make concatenation
+            // 'I'm learning' + var // use concatenation
+            // `I'm learning ${var}` // use template string
+
+            // var.length // how much caracter
+            // var.toUpperCase() // for UpperCase text
+            // var.toLowerCase() // for not UpperCase text
+            window.alert(`${sum}`);
+    </script>
+</body>
+</html>
