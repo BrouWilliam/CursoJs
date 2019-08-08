@@ -34,15 +34,15 @@ Anotações do Curso:
 O valor digitado no campo do alert sempre será uma String, caso o valor seja numero e queira somar eles é preciso converter para numero, 
 caso contrário ficará assim:<br><br>
 Antes de converter: (5 + 5 = 55)<br>
-Depois de converter: (5 + 5 = 10)<br> 
+Depois de converter: (5 + 5 = 10)<br><br>
 
-**Como converter de String para Numero?**<br><br>
+**Como converter de String para Numero?**<br>
 
  Você pode utilizar 2 métodos:<br><br>
   1º  `Number.ParseInt();` que ficaria assim: `var numero = Number.parseInt(window.prompt('Digite um número'));` <br> ou  `var numero = Number.parseInt`<br><br>
-  2º  `Number` apenas escrever (Number) kkkk que ficaria assim: `var numero = Number(window.prompt('Digite um número'));`<br>
+  2º  `Number` apenas escrever (Number) kkkk que ficaria assim: `var numero = Number(window.prompt('Digite um número'));`<br><br>
   
-  **Como converter de Numero para String?**<br><br>
+  **Como converter de Numero para String?**<br>
     Você pode utilizar 2 métodos:<br><br>
   1º `String(nome_da_variavel)` que ficaria assim: `String(numero)`<br>
   2º `nome_da_variavel.toString()` que ficaria assim: `numero.toString()`<br>
@@ -50,10 +50,9 @@ Depois de converter: (5 + 5 = 10)<br>
   ---
   
 **3º Parte**<br><br>
-**Tipos de formatação de saida**
-<br><br>
+**Tipos de formatação de saida**<br><br>
  
- **Quando for imprimir os valores das variaveis existe 2 formas:**<br><br>
+ **Quando for imprimir os valores das variaveis existe 2 formas:**<br>
   
  1º `'Meu nome é: '+ nome` que ficará assim:  **Meu nome é William**<br>
  2º `Meu nome é ${nome}:` que ficará assim: **Meu nome é William** é a mesma coisa, mas esse é mais bonito kkkk<br>
