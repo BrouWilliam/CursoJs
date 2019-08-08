@@ -1,5 +1,7 @@
-# CursoJs
+# CursoJs - Curso em vídeo
+
 A meta é: No final do ano de 2019 saber programar em JavaScript e não copiar mais código
+
 
 Anotações do Curso:
 # Aula #4
