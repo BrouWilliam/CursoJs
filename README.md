@@ -76,6 +76,8 @@ Caso queira colocar valor da moeda local: `nome_da_variavel.toLocaleString('pt-B
 
 **Operadores**<br><br>
 
+Aritiméticos e Atribuição<br><br>
+
  ***Ordem de precedência***<br><br>
 `()`<br>
 `**`<br>
@@ -107,10 +109,42 @@ Caso queira colocar valor da moeda local: `nome_da_variavel.toLocaleString('pt-B
 `var n **=2`<br>
 `var n %=5`<br>
 
-***Incremento***
+***Incremento***<br><br>
  `var n++`<br>
  `var n--`<br>
  `var --n`<br>
  `var ++n`<br>
  
+ ---
  
+ Relacionai, Lógicos e Ternário<br<br>
+ 
+ ***Relacionais***<br><br>
+ `> | 5 > 2 = true`<br>
+ `< | 7 < 4 = false`<br>
+ `>= | 5 > 2 = true`<br>
+  `>= | 5 >= 2 = true`<br>
+  `<= | 9 <= 7 = false`<br>
+  `== | 5 == 5 = true`<br>
+  `!= | 4 != 4 = false`<br><br>
+  
+  ***Lógicos***<br><br>
+`!  Negação`<br>
+`&&  Conjução`<br>
+`|| Disjunção`<br><br>
+
+***Ternário***<br><br>
+`? :`<br><br>
+
+ ***Identidade***<br><br>
+ `5 == 5 = true`<br>
+ `5== '5' = true`<br>
+ `5 === '5' = false`<br>
+ `5 === 5 == true`<br><br>
+ 
+ ***Precedência***<br><br>
+ `() ** / ...`<br>
+ `> < >= ...`<br>
+ `! && ||`<br>
+ 
+ ---
