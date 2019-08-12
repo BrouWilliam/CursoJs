@@ -71,3 +71,46 @@ Caso queira trocar o **(.)** por **(,)**: `nome_da_variavel.toFixed(2).replace('
 Caso queira colocar valor da moeda local: `nome_da_variavel.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});`<br>
 
 ---
+
+# Aula #5
+
+**Operadores**<br><br>
+
+ ***Ordem de precedência***<br><br>
+`()`<br>
+`**`<br>
+`* / %`<br>
+`+ -`<br><br><br>
+ 
+ ***Atribuição Simples***<br><br>
+`var a = 5 + 3`<br>
+`var b = a % 5`<br>
+`var c = 5 * b **2`<br>
+`var d = 10 - a / 2`<br>
+`var e = 6 * 2 / d`<br>
+`var f = b % e + 4 / e`<br><br>
+ 
+ ***Auto-atribuições***<br><br>
+`var n = 3`<br>
+`var n + 4`<br>
+`var n - 5`<br>
+`var n * 4`<br>
+`var n / 2`<br>
+`var n + ** 2`<br>
+`var n % 5`<br>
+
+ ***Simplificado***<br><br>
+`var n +=4`<br>
+`var n -=4`<br>
+`var n *=4`<br>
+`var n /=2`<br>
+`var n **=2`<br>
+`var n %=5`<br>
+
+***Incremento***
+ `var n++`<br>
+ `var n--`<br>
+ `var --n`<br>
+ `var ++n`<br>
+ 
+ 
