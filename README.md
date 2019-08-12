@@ -117,7 +117,7 @@ Aritiméticos e Atribuição<br><br>
  
  ---
  
- Relacionai, Lógicos e Ternário<br<br>
+ Relacionais, Lógicos e Ternário<br><br>
  
  ***Relacionais***<br><br>
  `> | 5 > 2 = true`<br>
