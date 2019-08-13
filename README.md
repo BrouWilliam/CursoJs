@@ -148,3 +148,65 @@ Aritiméticos e Atribuição<br><br>
  `! && ||`<br>
  
  ---
+# Aula #9
+
+**Árvore Dom**
+![Diagrama em branco](https://user-images.githubusercontent.com/36682030/62909218-0cba1380-bd52-11e9-89bc-4c4d2511ca28.jpeg)
+
+**Métodos para pegar objetos**<br><br><br>
+
+***Por marca***<br><br>
+Pegando Objeto e reescrever<br>
+
+
+`<body>
+ <p>Hello Friend</p>
+</body>
+
+<script>
+ var p1 = window.document.getElementsByTagName('p')[0];
+ p1.innerText = 'Hi';
+</script>`<br>
+Sempre que ogetElementsByTagName estiver no plural, acrescentar o [0] que representa o número do parágrafo<br><br>
+
+***Por Id***<br><br>
+
+`<body>
+ <div id="txt">Hello Friend</div>
+</body>
+
+<script>
+ var p1 = window.document.getElementById('txt');
+ p1.style.background = 'green';
+</script>`<br><br>
+
+***Por Nome***<br><br>
+
+`<body>
+ <div name="txt">Hello Friend</div>
+</body>
+
+<script>
+ var p1 = window.document.getElementsByName('txt');
+</script>`<br><br>
+
+***Por Classe***<br><br>
+
+`<body>
+ <div class="txt">Hello Friend</div>
+</body>
+
+<script>
+ var p1 = window.document.ClassName('txt')[1];
+</script>`<br><br>
+
+***Por Selector***<br><br>
+
+`<body>
+ <div class="txt">Hello Friend</div>
+</body>
+
+<script>
+ var p1 = window.document.querySelector('div#txt')[1];
+</script>`<br><br>
+ ---
