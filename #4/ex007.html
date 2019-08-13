@@ -37,9 +37,23 @@
 
         // por Id 
 
-        var d = window.document.getElementById('msg')
-        d.style.background = 'green';
-        d.innerText = 'Hello...'
+        // var d = window.document.getElementById('msg')
+        // d.style.background = 'green';
+        // d.innerText = 'Hello...'
+
+
+        // por name
+
+        var d = window.document.getElementsByName('') // se tiver Elements é necessário colocar []
+        d.innerText = 'Olá!'
+
+        // por classe
+
+        window.document.getElementsByClassName('');
+    
+        // por selector por id
+        var d = window.document.querySelector('div#msg')
+        
     </script>
 </body> 
 </html>
