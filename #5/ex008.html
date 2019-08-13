@@ -1,0 +1,62 @@
+<!-- Exercicios da aula 10 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+        #area{ 
+            font: normal 20pt Arial;
+            background: black;
+            color: #FFF;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" >
+        Intereja
+    </div>
+
+    <script>
+        
+        // Quando eu coloco o mouse em cima da DIV - mouseenter
+        // Quando eu fico passando o mouse dentro da DIV - mousemove
+        // Quando eu clico e seguro o mouse dentro da DIV - mousedown
+        // Quando eu seguro e solto o mouse dentro da DIV - mouseup
+        // Quando eu clico rapidamente o mouse dentro da DIV - click 
+        // Quando eu mouver o mouse para fora da DIV - mouseout
+
+        // Funções só acontece quando um evento acontecer
+
+        var a = window.document.getElementById('area');
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+
+        function clicar(){
+            a.style.background = 'red';
+        }
+
+        function entrar(){
+            a.innerText = 'Clicou'; 
+        }
+
+        function sair(){
+            a.innerText = 'Sair';
+        }
+
+    </script>
+</body> 
+</html>
