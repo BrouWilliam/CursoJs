@@ -210,3 +210,8 @@ Sempre que ogetElementsByTagName estiver no plural, acrescentar o [0] que repres
  var p1 = window.document.querySelector('div#txt')[1];
 </script>`<br><br>
  ---
+
+ #Aula 11
+
+**Condições**
+

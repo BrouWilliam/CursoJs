@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detran</title>
+</head>
+<body>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="calcular()"><br>
+
+    Nacionalidade: <input type="string" name="texto" id="texto">
+    <input type="button" value="Olhar" onclick="nacionalidade()">
+</body>
+
+<script>
+    function calcular(){
+
+         var valorVelocidade = document.querySelector('input#txtvel');
+         var vel = Number(valorVelocidade.value);
+
+        if(vel > 60){
+            console.log("Você ultrapassou o limite de velocidade, Multado");
+        }
+        else{
+            console.log("Acelera aee!")
+        }
+    }
+
+    function nacionalidade(){
+        var valorNacionalidade = document.querySelector('input#texto');
+        var text = String(valorNacionalidade.value);
+
+        if(text == "EUA"){
+            console.log('Sua nacionalidade é Americana')
+        }
+        else{
+            console.log('You are Brazilian')
+        }
+
+    }
+</script>
+</html>
